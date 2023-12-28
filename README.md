@@ -18,12 +18,11 @@ To write a program to perform linear search and binary search using python progr
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
 i)	#Use a linear search method to match the item in a list.
-```
-''' 
+``` 
 Program for linear search method to match the item in a list
 Developed by:MOHAMED SULTHAN A
 RegisterNumber: 23004839
-'''
+
 def linearSearch(array,n,k):
     for i in range (n):
         if array[i]==k:
@@ -41,16 +40,12 @@ else:
      print("Element found at index: ",result)
 ```
 
-
-
-```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
-```
-''' 
+``` 
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by:MOHAMED SULTHAN A
 RegisterNumber: 23004839
-'''
+
 def binarySearchIter(array, k, low, high):
     while low<=high:
         mid=low+(high-low)//2
@@ -72,18 +67,12 @@ else:
     print("Element found at index: ",result)
 ```
 
-
-
-
-
-```
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
-''' 
 Program to find the element in a list using Binary Search (recursive Method).
 Developed by: your name MOHAMED SULTHAN A
 RegisterNumber: 23004839
-'''
+
 def BinarySearch(arr,low, high,x):
     if high>=low:
         mid=(high+low)//2
@@ -108,11 +97,6 @@ else:
     print("Element not found")
 ```
 
-
-
-
-
-```
 ## Output:
 ![Screenshot 2023-12-28 172908](https://github.com/Sulthan06042007/Search-Algorithm/assets/144980103/ac0354e1-6c72-4996-bca0-5b2c4946733f)
 ![Screenshot 2023-12-28 172950](https://github.com/Sulthan06042007/Search-Algorithm/assets/144980103/e339f4f3-aa7a-4873-aed7-0a202596d1f3)
